@@ -1,48 +1,48 @@
 
 var myQuestions = [
     {
-        question: "What is 10/2?",
+        question: "The numbers at the beginning of a piece of music represent the: ",
         answers: {
-            a: '3',
-            b: '5',
-            c: '115'
+            a: 'TIme signature',
+            b: 'Key signature',
+            c: 'Treble Clef'
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
 
     {
-        question: "What is 30/3?",
+        question: "The lines in the treble staff are, from bottom to top: ",
         answers: {
-            a: '3',
-            b: '5',
-            c: '10'
+            a: 'FGBDE',
+            b: 'EGBDF',
+            c: 'ABCDE'
         },
-        correctAnswer: 'c'
+        correctAnswer: 'b'
     },
     {
-      question: "What is 10/2?",
+      question: "A 16th note will have the following:",
       answers: {
-          a: '3',
-          b: '5',
-          c: '115'
+          a: 'A longer stem',
+          b: 'One flag',
+          c: 'Two flags'
       },
-      correctAnswer: 'b'
+      correctAnswer: 'c'
   },
   {
-    question: "What is 10/2?",
+    question: "A dotted half note equals how many quarter notes? ",
     answers: {
-        a: '3',
-        b: '5',
-        c: '115'
+        a: '1',
+        b: '2',
+        c: '3'
     },
-    correctAnswer: 'b'
+    correctAnswer: 'c'
   },
   {
-    question: "What is 10/2?",
+    question: "The musical term used to describe differences in volume is: ",
     answers: {
-        a: '3',
-        b: '5',
-        c: '115'
+        a: 'Crescendo',
+        b: 'Dynamics',
+        c: 'Rallentando'
     },
     correctAnswer: 'b'
   },
