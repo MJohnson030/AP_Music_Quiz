@@ -155,23 +155,23 @@ var myQuestions = [
         var userAnswer = '';
         var numCorrect = 0;
         
-        // for each question...
+      
         for(var i=0; i<questions.length; i++){
   
-            // find selected answer
+            // This uses the userAnswer variable to find the selected answer using the queryslector method. 
             userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
             
-            // if answer is correct
+            // if answer is correct this adds one to the number of correct
             if(userAnswer===questions[i].correctAnswer){
                 // add to the number of correct answers
                 numCorrect++;
                 
-                // color the answers green
+                // color the answers green if correct
                 answerContainers[i].style.color = 'lightgreen';
             }
             // if answer is wrong or blank
             else{
-                // color the answers red
+                // the answer color turns red
                 answerContainers[i].style.color = 'red';
             }
         }
